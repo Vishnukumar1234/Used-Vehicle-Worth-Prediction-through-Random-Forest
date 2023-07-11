@@ -6,34 +6,34 @@ Predictive analysis using Random Forest Classifier on used car auction data to h
 ## Table of Contents
 
 * [Introduction](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Introduction)
-* Dataset
-* Installation
-* Usage
-* Data Preprocessing
-* Model Training
-* Evaluation
-* Results
-* Conclusion
-* Contributing
+* [Dataset](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Dataset)
+* [Installation](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Installation)
+* [Usage](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Usage)
+* [Data Preprocessing](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#DataPreprocessing)
+* [Model Training](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#ModelTraining)
+* [Evaluation](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Evaluation)
+* [Results](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Results)
+* [Conclusion](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Conclusion)
+* [Contributing](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Contributing)
 
 ## Introduction
 
 This project focuses on leveraging machine learning techniques to analyze a comprehensive dataset of used cars from auto auctions. With the aim of assisting auto dealerships in making informed decisions, a Random Forest Classifier is employed to predict the suitability of a car as a potential purchase or a "kick" (a vehicle with significant issues). Achieving an impressive accuracy of 90.4%, this project significantly reduces the risks associated with purchasing undesirable vehicles, enabling dealerships to optimize their inventory selection and drive improved profitability. The open-source nature of this project makes it a valuable resource for the automotive industry, providing advanced insights and tools for dealership decision-making.
 ## Dataset
-The dataset used for this project contains over 67,000 records with 31 attributes. Each attribute provides information about the cars and their characteristics. Here is an overview of the key attributes:
+The dataset used for this project contains over **67,000 records with 31 attributes**. Each attribute provides information about the cars and their characteristics. Here is an overview of the key attributes:
 
-* class: The target variable indicates whether the car is a kick (bad buy) or not.
-* PurchDate: The date of the purchase.
-* VehYear: The manufacturing year of the vehicle.
-* VehicleAge: The age of the vehicle.
-* VehOdo: The odometer reading of the vehicle.
-* MMRAcquisitionAuctionAveragePrice: Average price of the vehicle at acquisition from auctions.
-* MMRCurrentRetailCleanPrice: Clean retail price of the vehicle at the current market.
-* VehBCost: Acquisition cost of the vehicle.
-* WarrantyCost: Warranty cost for the vehicle.
+* **class**: The target variable indicates whether the car is a kick (bad buy) or not.
+* **PurchDate**: The date of the purchase.
+* **VehYear**: The manufacturing year of the vehicle.
+* **VehicleAge**: The age of the vehicle.
+* **VehOdo**: The odometer reading of the vehicle.
+* **MMRAcquisitionAuctionAveragePrice**: Average price of the vehicle at acquisition from auctions.
+* **MMRCurrentRetailCleanPrice**: Clean retail price of the vehicle at the current market.
+* **VehBCost**: Acquisition cost of the vehicle.
+* **WarrantyCost**: Warranty cost for the vehicle.
 * Several other attributes describing the vehicle's make, model, trim, color, transmission, wheel type, etc.
 
-You can access the dataset on OpenML.
+You can access the dataset on [OpenML](https://openml.org/search?type=data&sort=runs&status=active&order=desc&id=45070).
 
 ## Installation
 
@@ -53,10 +53,10 @@ After completing the installation steps, you can either run the Jupyter Notebook
 
 In the Jupyter Notebook or script, you will find the following sections:
 
-* Data preprocessing: Handling missing values, feature scaling, and encoding categorical variables.
-* Model training: Building and training the Random Forest Classifier using GridSearch CV for hyperparameter tuning.
-* Evaluation: Assessing the model's performance through various metrics.
-* Results: Summarize the key findings and accuracy achieved.
+* **Data preprocessing**: Handling missing values, feature scaling, and encoding categorical variables.
+* **Model training**: Building and training the Random Forest Classifier using GridSearch CV for hyperparameter tuning.
+* **Evaluation**: Assessing the model's performance through various metrics.
+* **Results**: Summarize the key findings and accuracy achieved.
 
 Feel free to modify the notebook or script to suit your needs or experiment with different machine-learning algorithms.
 
@@ -72,9 +72,9 @@ These preprocessing steps help in preparing the data for model training and impr
 
 ## Model Training
 
-For this project, I have implemented the Random Forest Classifier algorithm. Random forests are a popular ensemble learning method that combines multiple decision trees to make predictions. The algorithm is known for its robustness, ability to handle large datasets and resistance to overfitting.
+For this project, I have implemented the **Random Forest Classifier** algorithm. Random forests are a popular ensemble learning method that combines multiple decision trees to make predictions. The algorithm is known for its robustness, ability to handle large datasets and resistance to overfitting.
 
-To find the best hyperparameters for our model, I used GridSearch CV, a technique that systematically searches for the optimal combination of hyperparameters. This process maximizes the model's performance and helps achieve the best accuracy.
+To find the best hyperparameters for our model, I used **GridSearch CV**, a technique that systematically searches for the optimal combination of hyperparameters. This process maximizes the model's performance and helps achieve the best accuracy.
 
 ## Evaluation
 
@@ -84,7 +84,7 @@ To ensure reliable evaluation, we employed cross-validation techniques such as s
 
 ## Results
 
-After training and evaluating the model, It has achieved an accuracy of 90.4%. This high accuracy demonstrates the model's capability to predict whether a car is a good buy or a kick.
+After training and evaluating the model, It has achieved an accuracy of **90.4%**. This high accuracy demonstrates the model's capability to predict whether a car is a good buy or a kick.
 
 The model provides valuable insights to auto dealerships, enabling them to make informed decisions during auto auctions. By avoiding kicked cars, dealerships can reduce costs associated with transportation, repair work, and market losses, resulting in improved profitability.
 
