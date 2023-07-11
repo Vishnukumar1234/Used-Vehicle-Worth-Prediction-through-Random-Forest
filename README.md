@@ -5,7 +5,7 @@ Predictive analysis using Random Forest Classifier on used car auction data to h
 
 ## Table of Contents
 
-* [Introduction] (https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Introduction)
+* [Introduction](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest#Introduction)
 * Dataset
 * Installation
 * Usage
