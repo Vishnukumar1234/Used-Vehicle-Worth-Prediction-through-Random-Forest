@@ -49,7 +49,7 @@ To run this project locally, you need to follow these steps:
 
 ## Usage
 
-After completing the installation steps, you can either run the Jupyter Notebook Vehicle_Kick_prediction.ipynb.
+After completing the installation steps, you can either run the Jupyter Notebook [Vehicle_Kick_prediction.ipynb](https://github.com/Vishnukumar1234/Used-Vehicle-Worth-Prediction-through-Random-Forest/blob/main/Vehicle_Kick_prediction.ipynb).
 
 In the Jupyter Notebook or script, you will find the following sections:
 
